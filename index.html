@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<title>Home</title>
+
+		
+
+		<link rel="modulepreload" href="/github-kit-deploy/_app/start-b21c7460.js">
+		<link rel="modulepreload" href="/github-kit-deploy/_app/chunks/vendor-9c647703.js">
+		<link rel="modulepreload" href="/github-kit-deploy/_app/pages/__layout.svelte-dba826c6.js">
+		<link rel="modulepreload" href="/github-kit-deploy/_app/pages/index.svelte-7c0c91ca.js">
+		<link rel="stylesheet" href="/github-kit-deploy/_app/assets/start-8077b9bf.css">
+		<link rel="stylesheet" href="/github-kit-deploy/_app/assets/pages/__layout.svelte-7adc7cb3.css">
+
+		<script type="module">
+			import { start } from "/github-kit-deploy/_app/start-b21c7460.js";
+			start({
+				target: document.querySelector("#svelte"),
+				paths: {"base":"/github-kit-deploy","assets":"/github-kit-deploy"},
+				session: {},
+				host: location.host,
+				route: true,
+				spa: false,
+				trailing_slash: "never",
+				hydrate: {
+					status: 200,
+					error: null,
+					nodes: [
+						import("/github-kit-deploy/_app/pages/__layout.svelte-dba826c6.js"),
+						import("/github-kit-deploy/_app/pages/index.svelte-7c0c91ca.js")
+					],
+					page: {
+						host: location.host, // TODO this is redundant
+						path: "/",
+						query: new URLSearchParams(""),
+						params: {}
+					}
+				}
+			});
+		</script>
+	</head>
+	<body>
+		<div id="svelte">
+
+
+<header class="text-gray-600 body-font shadow-sm"><div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"><a href="/github-kit-deploy/" class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"><svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-green-500 rounded-full" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path></svg>
+	<span class="ml-3 text-xl">Tailblock</span></a>
+<nav class="md:ml-auto flex flex-wrap items-center text-base justify-center"><a href="/github-kit-deploy/" class="mr-5 hover:text-gray-900">Home</a>
+	<a href="/github-kit-deploy/projects" class="mr-5 hover:text-gray-900">Projects</a></nav></div></header>
+<main><h1>Home</h1>
+</main>
+
+
+
+	
+</div>
+	</body>
+</html>
