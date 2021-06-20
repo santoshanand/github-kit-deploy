@@ -12,13 +12,13 @@ const config = {
 		target: '#svelte',
 		paths: {
 			assets: '',
-			base: '/github-kit-deploy/'
+			base: '/github-kit-deploy'
 		},
 		adapter: adapter({
 			// default options are shown
 			pages: 'build',
 			assets: 'build',
-			fallback: null
+			fallback: '404.html'
 		})
 	}
 };

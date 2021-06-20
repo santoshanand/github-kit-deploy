@@ -1,5 +1,5 @@
 <script lang="ts">
-	const PATH = import.meta.env.VITE_GITHUB_PATH as string;
+	const PATH = import.meta.env.VITE_GITHUB_PATH as string || '/';
 </script>
 <header class="text-gray-600 body-font shadow-sm">
 	<div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
