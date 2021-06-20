@@ -10,6 +10,10 @@ const config = {
 	kit: {
 		// hydrate the <div id="svelte"> element in src/app.html
 		target: '#svelte',
+		paths: {
+			assets: '',
+			base: '/github-kit-deploy/'
+		},
 		adapter: adapter({
 			// default options are shown
 			pages: 'build',
